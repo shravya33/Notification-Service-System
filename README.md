@@ -54,5 +54,14 @@ Now, run the python file. This will create a database (if not already existing) 
 python system.py
 ```
 
-#### Testing
+## Testing
 To test the functionalities, you can run ```test_email.py``` and ```test_sms.py``` respectively.
+
+
+## Outputs
+Below is the database which was initialized and keeps updating according to the notifications sent.
+
+<img src="https://github.com/user-attachments/assets/5a73a317-76ed-494a-9a39-17b76126806d" 
+     alt="Description of image" 
+     width="80%">
+
