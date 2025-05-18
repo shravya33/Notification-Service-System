@@ -152,4 +152,6 @@ if __name__ == "__main__":
         contact_info="receiver@gmail.com"  # replace this with actual email/phone
     )
     
-    print("Notification sent successfully. Please check the database.")
+    notifications = get_user_notifications("user")
+    for notification in notifications:
+        print(f"[{notification['created_at']}] {notification['type'].upper()}: {notification['message']} ({notification['status']})")
