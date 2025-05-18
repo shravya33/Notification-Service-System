@@ -146,7 +146,7 @@ if __name__ == "__main__":
     
     # example
     send_notification(
-        user_name="Shravya",
+        user_name="user", # user name
         notification_type="email", # set type as "email" or "sms" accordingly
         message="This is a test email",
         contact_info="receiver@gmail.com"  # replace this with actual email/phone
